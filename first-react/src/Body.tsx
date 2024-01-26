@@ -79,7 +79,7 @@ function Body() {
 
             <div className='row'>
                 <div className="card">
-                    <img src="./public/Sigiriya.jpeg" className="img-card" alt="..." />
+                    <img src="./public/Sigiriya.jpg" className="img-card" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Sigiriya Rock</h5>
                         <p className="card-text"></p>
@@ -103,15 +103,103 @@ function Body() {
                     </div>
                 </div>
                 <div className="card">
-                    <img src="./public/Pidurangala Rock.jpeg" className="img-card" alt="..." />
+                    <img src="./public/Royal Botanical Gardens.jpeg" className="img-card" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">k</h5>
+                        <h5 className="card-title">Royal Botanical Gardens</h5>
                         <p className="card-text"></p>
                         <a href="#" className="btn btn-primary">Add to Plan</a>
                     </div>
                 </div>
-
             </div>
+
+
+
+            {/* Cards row-2 */}
+
+            <div className='row'>
+                <div className="card">
+                    <img src="./public/Horton Plains National Park.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Horton Plains</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./public/Ramboda Falls.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Ramboda Falls</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./public/Gregory Lake.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Gregory Lake</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./public/Knuckels Mountain Range.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Knuckels Mountains</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            {/* Cards row-3 */}
+
+            <div className='row'>
+                <div className="card">
+                    <img src="./public/Ambuluwawa.jpg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Ambuluwawa Tower</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./public/Victoria Park.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Victoria Park</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./public/Ceylon Tea Museum.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Ceylon Tea Museum</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./public/St Clair's Falls.jpeg" className="img-card" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">St. Clair's Falls</h5>
+                        <p className="card-text"></p>
+                        <a href="#" className="btn btn-primary">Add to Plan</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
     );
