@@ -1,7 +1,7 @@
 import { } from "bootstrap/dist/css/bootstrap.css"
 import Navbar from "./Navbar";
-import Body from "./Search-Page/Body";
 import Footer from "./Footer";
+import Plan from "./Tour-Plan-Page/PlanBody";
 
 
 
@@ -10,7 +10,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Body />
+      {/* <Body /> */}
+      <Plan/>
       <Footer/>
 
     </div>

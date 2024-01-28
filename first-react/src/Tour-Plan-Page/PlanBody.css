@@ -1,0 +1,45 @@
+
+#DateRow{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(27, 142, 187);
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+.btn.btn-secondary.btn-lg.dropdown-toggle {
+    width: 150px !important; 
+    margin-left: 10px; 
+    background-color: #99BC85;
+}
+
+@media (min-width: 576px) {
+    .btn.btn-secondary.btn-lg.dropdown-toggle {
+        width: 120px; 
+        margin-left: 25px; 
+    }
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+.btn.btn-info{
+    color: white;
+}
+
+.ButtonRow{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.table{
+    background-color: aqua;
+}
