@@ -1,6 +1,6 @@
 import { } from "bootstrap/dist/css/bootstrap.css"
 import Navbar from "./Navbar";
-import Body from "./Body";
+import Body from "./Search-Page/Body";
 import Footer from "./Footer";
 
 

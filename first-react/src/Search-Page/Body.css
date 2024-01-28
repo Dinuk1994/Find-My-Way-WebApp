@@ -1,6 +1,6 @@
-
 .body-container {
     position: relative;
+    padding-bottom: 60px;
 }
 
 .background-image {
@@ -11,7 +11,6 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    
 }
 
 #btnSearch {
@@ -25,7 +24,6 @@
     background-color: #333; 
 }
 
-
 .col-4 {
     border-top: 1px solid #432584; 
     padding-top: 10px; 
@@ -34,11 +32,10 @@
 .dropdown-toggle.btn.btn-secondary {
     border-top: 1px;
     margin-top: 10px; 
-   
 }
 
-.card{
-    margin-left: 100px;
+.card {
+    margin-left: 80px;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 18rem;
@@ -52,9 +49,8 @@
     border-radius: 5px;
 }
 
-.btn-primary.btn-lg {
-    margin-top: 20px; 
-    margin-left: 1400px;
-    margin-bottom: 50px;
+.go-to-plans {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
-
