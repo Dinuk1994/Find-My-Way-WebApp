@@ -31,7 +31,7 @@ function Plan() {
                  <div id="calander">
                     <DatePicker
                         selected={endDate}
-                        onChange={(date: any) => setStartDate(date)}
+                        onChange={(date: any) => setEndDate(date)}
                         startDate={startDate}
                         endDate={endDate}
                         minDate={startDate}
