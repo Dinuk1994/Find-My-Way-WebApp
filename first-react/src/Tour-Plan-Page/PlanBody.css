@@ -12,10 +12,8 @@
     border-radius: 25px;
 }
 
-.btn.btn-secondary.btn-lg.dropdown-toggle {
-    width: 150px !important; 
-    margin-left: 10px; 
-    background-color: #99BC85;
+#calander{
+    margin-left: 10px;
 }
 
 @media (min-width: 576px) {
@@ -43,3 +41,12 @@
 .table{
     background-color: aqua;
 }
+
+#lblDate1{
+    margin-left: 25px;
+}
+
+#lblDate2{
+    margin-left: 35px;
+}
+

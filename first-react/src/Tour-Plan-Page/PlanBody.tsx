@@ -1,28 +1,45 @@
 import "./PlanBody.css";
 
+import  { useState } from "react";
+import DatePicker from "react-datepicker"
+import "react-datepicker/dist/react-datepicker.css";
+
 function Plan() {
+    const [startDate, setStartDate] = useState(new Date());
+    const [endDate, setEndDate] = useState(null);
+
+
     return (
         <div className="container">
 
             <div id="DateRow">
-                <label htmlFor="">SELECT TIME DURATION</label>
-                <div className="btn-group col-2">
-                    <button className="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Starting Date
-                    </button>
-                    <ul className="dropdown-menu">
-                        { /* Dropdown menu content */}
-                    </ul>
-                </div>
+                <label htmlFor="endDate" id="lblDate1">SELECT START DATE</label>
+  
+                    <div id="calander">
+                    <DatePicker
+                        selected={startDate}
+                        onChange={(date: any) => setStartDate(date)}
+                        startDate={startDate}
+                        minDate={new Date()}
+                        selectsStart
+                        placeholderText="Starting Date"
+                    />
+                    </div>
+               
+                 <label htmlFor="endDate" id="lblDate2">SELECT END DATE</label>
+                
+                 <div id="calander">
+                    <DatePicker
+                        selected={endDate}
+                        onChange={(date: any) => setStartDate(date)}
+                        startDate={startDate}
+                        endDate={endDate}
+                        minDate={startDate}
+                        selectsEnd
+                        placeholderText="End Date"
+                    />
+                    </div>
 
-                <div className="btn-group col-2">
-                    <button className="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ending Date
-                    </button>
-                    <ul className="dropdown-menu">
-                        { /* Dropdown menu content */}
-                    </ul>
-                </div>
             </div>
 
             <br /><br />

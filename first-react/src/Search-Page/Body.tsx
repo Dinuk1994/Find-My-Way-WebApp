@@ -1,4 +1,5 @@
 import "./Body.css"
+import {Link} from "react-router-dom"
 
 function Body() {
     return (
@@ -192,7 +193,7 @@ function Body() {
 
 
             <div className="go-to-plans">
-                <button type="button" className="btn btn-primary btn-lg">Go To Plans</button>
+                <Link to="/plan"><button type="button" className="btn btn-primary btn-lg">Go To Plans</button></Link>
             </div>
 
 
