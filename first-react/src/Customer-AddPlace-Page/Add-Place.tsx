@@ -11,11 +11,11 @@ function AddPlace() {
     };
 
     return (
-       
-            <div className="container bg-image">
-                
-               <div className='body'>
-               <div className="dropdown">
+
+        <div className="container bg-image">
+
+            <div className='body'>
+                <div className="dropdown">
                     <label htmlFor="" id='cardID'>Card ID</label>
                     <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {selectedProvince}
@@ -61,21 +61,17 @@ function AddPlace() {
                         <label htmlFor="placeName">Add Image of the Place</label>
                     </div>
                     <div className="col-7">
-                        <div className="input-group mb-3">
-                            <label className="input-group-text">Options</label>
-                            <select className="form-select" id="inputGroupSelect01">
-                                <option selected>Choose...</option>
-                                <option value="1">One</option>
-                            </select>
+                        <div className="mb-3">
+                            <input className="form-control" type="file" id="imgPlace"/>
                         </div>
 
                     </div>
                 </div>
-                
+
             </div>
             <div className='col-10'><button type="button" id='btnAddPlace' className="btn btn-primary">Add Place</button></div>
 
-               </div>
+        </div>
 
 
     );
